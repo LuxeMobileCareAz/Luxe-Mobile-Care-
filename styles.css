@@ -616,8 +616,11 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .about-header { flex-direction: column-reverse; }
-  .about-headshot { width: 100px; height: 125px; }
+  .about-header { flex-direction: row;
+                align-items: center; 
+                gap: 1rem; 
+                }
+  .about-headshot { width: 85px; height: 107px; }
   .about-stats { gap: 1.5rem; }
 }
 
